@@ -1,0 +1,22 @@
+/* File: fetchUnit.v
+ * Description: The fetch unit for FMAT's processor. 
+ * Authors: Angela To, Frank Mezzatesta
+ * Date: 2/6/15
+ */
+
+
+module fetchUnit(
+	// How big to make the registers?
+	input clk,			// Clock 
+	input reset,			// Reset Fetch
+	input branch,			// Indicates whether prior instruction was a branch
+	input [7:0] next_pc,		//
+	output [7:0] instr_o,		// Instruction Out
+	// What else is needed .... ???
+);
+
+// idk ...
+
+
+end module
+

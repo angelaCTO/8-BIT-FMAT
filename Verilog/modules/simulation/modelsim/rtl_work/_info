@@ -1,0 +1,186 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrator\Desktop\8-BIT-FMAT\Verilog\modules\simulation\modelsim
+vcontrol
+IdAd0@:O<6G7Q1]1Qcg_8A1
+VZ[:1];4a^LXL3=>^6e8aF1
+Z1 dC:\Users\Administrator\Desktop\8-BIT-FMAT\Verilog\modules\simulation\modelsim
+w1424661824
+8C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/control.v
+FC:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/control.v
+L0 30
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules -O0
+!i10b 1
+!s100 KUbdF2F3WdiVfJEhSB3]32
+!s85 0
+!s108 1424670517.887000
+!s107 C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules|C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/control.v|
+!s101 -O0
+vfetchUnit
+I[bDP78=BgI0jH>0do<Tdj1
+VWP5G0_c<M@aWE:YkV<9lR2
+R1
+w1424401526
+8C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/fetchUnit.v
+FC:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/fetchUnit.v
+L0 1
+R2
+r1
+31
+R3
+R4
+nfetch@unit
+!i10b 1
+!s100 XczC[Ok]ER?A2e22FZg@@1
+!s85 0
+!s108 1424670517.466000
+!s107 C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/fetchUnit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules|C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/fetchUnit.v|
+!s101 -O0
+vfmat_alu
+!i10b 1
+!s100 6H_C[^j?b]N:>Em2TSiUD1
+Ik:_FjWUeH=l:71R:G=Jz^0
+VceoVGiY;>36JH6DWz`_YK0
+R1
+w1424408482
+8C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/fmat_alu.v
+FC:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/fmat_alu.v
+L0 14
+R2
+r1
+!s85 0
+31
+!s108 1424670517.965000
+!s107 C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/fmat_alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules|C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/fmat_alu.v|
+!s101 -O0
+R3
+R4
+vfmat_alu_testbench
+Il`2LoRZKC[4[?W^FDY8Dl0
+VD6YH>iWM>ZeXceI?Co@lU1
+R1
+w1423203928
+8C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/fmat_alu_testbench.v
+FC:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/fmat_alu_testbench.v
+L0 9
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ;jm;A?5_zWCUWz[QXkU2V2
+!s85 0
+!s108 1424670517.607000
+!s107 C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/fmat_alu_testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules|C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/fmat_alu_testbench.v|
+!s101 -O0
+vinst_rom
+IMg]?cKzFQ2CIVXfN?b6n02
+VRhjOMMWDkNjkj^N<ETZjb3
+R1
+w1424403326
+8C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/instrROM.v
+FC:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/instrROM.v
+L0 3
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 >nXKYAX>PVOTe3]Y7hbik0
+!s85 0
+!s108 1424670517.263000
+!s107 C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/instrROM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules|C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/instrROM.v|
+!s101 -O0
+vmux4_1
+Ijk]dmhnahQFAOKQIMg6]e3
+VTMhz>E;U<HJE9YNJ`9GZ>3
+R1
+w1424407146
+8C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/mux4_1.v
+FC:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/mux4_1.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ::djaSV7BazmF:5SZ1VHl2
+!s85 0
+!s108 1424670517.747000
+!s107 C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/mux4_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules|C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/mux4_1.v|
+!s101 -O0
+vregfile
+Ib9cA60YTN<`0[cOL0NWP^0
+Va54I:ag?2MLMSh<o4nDEG1
+R1
+w1424367630
+8C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/regfile.v
+FC:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/regfile.v
+L0 3
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ZRbiM:5TWn]U[^Fg5D^>l2
+!s85 0
+!s108 1424670517.529000
+!s107 C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/regfile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules|C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/regfile.v|
+!s101 -O0
+vsingle_port_ram_with_init
+IHF111YYW7b_6[ECYXRBDZ3
+VzXJjG4NlWHhe4fg]1C1Ng0
+R1
+w1424404754
+8C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/datamem.v
+FC:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/datamem.v
+L0 5
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 _P1`JhYbMDkz`R@nL82>=0
+!s85 0
+!s108 1424670517.685000
+!s107 C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/datamem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules|C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/datamem.v|
+!s101 -O0
+vto_flag
+I4G]0jeWiI7Rh?<GFdh@Oj3
+VQh[BYk>YRzB^7MGAh5MU03
+R1
+w1424662499
+8C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/to_flag.v
+FC:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/to_flag.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 Vn<cl9[1U7KC99U<g]T9?0
+!s85 0
+!s108 1424670517.825000
+!s107 C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/to_flag.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules|C:/Users/Administrator/Desktop/8-BIT-FMAT/Verilog/modules/to_flag.v|
+!s101 -O0

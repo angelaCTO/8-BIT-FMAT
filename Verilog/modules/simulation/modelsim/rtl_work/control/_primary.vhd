@@ -1,0 +1,40 @@
+library verilog;
+use verilog.vl_types.all;
+entity control is
+    port(
+        instr_i         : in     vl_logic_vector(7 downto 0);
+        register0_i     : in     vl_logic_vector(7 downto 0);
+        register1_i     : in     vl_logic_vector(7 downto 0);
+        register2_i     : in     vl_logic_vector(7 downto 0);
+        register3_i     : in     vl_logic_vector(7 downto 0);
+        register4_i     : in     vl_logic_vector(7 downto 0);
+        register5_i     : in     vl_logic_vector(7 downto 0);
+        register6_i     : in     vl_logic_vector(7 downto 0);
+        register7_i     : in     vl_logic_vector(7 downto 0);
+        registerN_i     : in     vl_logic;
+        registerR_i     : in     vl_logic_vector(3 downto 0);
+        registerF_i     : in     vl_logic_vector(1 downto 0);
+        registerCL_i    : in     vl_logic_vector(3 downto 0);
+        registerCR_i    : in     vl_logic_vector(7 downto 0);
+        registerJ0_i    : in     vl_logic_vector(7 downto 0);
+        registerJ1_i    : in     vl_logic_vector(7 downto 0);
+        registerJ2_i    : in     vl_logic_vector(7 downto 0);
+        registerJ3_i    : in     vl_logic_vector(7 downto 0);
+        registerO_i     : in     vl_logic_vector(7 downto 0);
+        halt_o          : out    vl_logic;
+        destination_o   : out    vl_logic_vector(1 downto 0);
+        bypassData_o    : out    vl_logic_vector(7 downto 0);
+        A_o             : out    vl_logic_vector(7 downto 0);
+        B_o             : out    vl_logic_vector(7 downto 0);
+        aluOpcode_o     : out    vl_logic_vector(3 downto 0);
+        N_o             : out    vl_logic;
+        writeEnable_o   : out    vl_logic;
+        readEnable_o    : out    vl_logic;
+        dataAddr_o      : out    vl_logic_vector(7 downto 0);
+        writeData_o     : out    vl_logic_vector(7 downto 0);
+        regfileWriteEnable_o: out    vl_logic;
+        regfileWriteAddr_o: out    vl_logic_vector(3 downto 0);
+        jumpAddr_o      : out    vl_logic_vector(7 downto 0);
+        jumpAttempt_o   : out    vl_logic
+    );
+end control;

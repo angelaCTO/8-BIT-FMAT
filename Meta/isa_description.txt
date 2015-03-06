@@ -1,0 +1,25 @@
+================================================================================
+ISA Description
+================================================================================
+
+Register count: 4
+Register size: 8 bits
+
+Instruction size: 8 bits
+[0][1][2][3][4][5][6][7]
+[  opcode  ][ constant ]
+
+--------------------------------------------------------------------------------
+ADDITION
+
+Assembly format
+    add $destination
+
+Machine format
+    [opcode 0000][register number **][unused 00]
+    0000**00
+
+Description
+    Adds contents of register 1 and contents of register 2. Saves result to the
+    specified destination register
+--------------------------------------------------------------------------------

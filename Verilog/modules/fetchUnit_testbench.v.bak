@@ -1,0 +1,30 @@
+module testbench();
+// Declare inputs as regs and outputs as wires
+
+	reg clk,			        // Clock 
+	reg flush_i,		        // Flush on data hazard
+	reg start_i,            // flag: whether to jump to the start address
+	reg [7:0] start_addr_i, // the address of the beginning of the program
+	reg branch_i,		     // Indicates whether prior instruction was a branch
+	reg taken_i,	           // whether the previous branch was taken
+	reg [7:0] target_i,     // target address to jump to
+	wire [7:0] instr_o      // Instruction Out
+
+// Initialize all variables
+initial begin        
+	clk = 1;       // initial value of clock
+	flush_i = 0;  	// initial value of reset
+	start_i = 0;
+	start_addr_i = 0;
+	branch_i = 0;
+	taken_i = 0;
+	target_i = 0;
+
+	#10  instr_o = 1;
+	#10  instr_o = 0;
+	#10  instr_o = 1;
+	#10  instr_o = 0;
+	#10  instr_o = 1;
+	#10  instr_o = 0;
+	
+ end

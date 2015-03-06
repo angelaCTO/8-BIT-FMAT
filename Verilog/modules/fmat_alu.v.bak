@@ -1,0 +1,106 @@
+/* File: alu.v
+ * Description: ALU implmentation for FMAT's processor
+ * Authors: Angela To, Frank Mezzatesta
+ * Date: 2/6/15
+ */
+ 
+// NOTE: I have not tried to compile/test this code in quartus yet, everything is still speculative
+// Need 4 control bits (~10 instr) for ALU control unit? 
+ 
+`timescale 1ns / 1ps
+
+`include opcodes.v
+
+
+module alu ( // ....hmmm not sure
+	input clk,			// Clock
+	input reg [3:0] opcode,		// 4-Bit Opcode
+	input reg [7:0] ovrflw,		// Overflow ....... need this?
+	input reg [7:0] a_i		// Input #1 
+	input reg [7:0] b_i,		// Input #2
+	input reg [7:0] zero,		// Need this ???
+	output reg [7:0] z_o		// Output #1
+);
+
+reg [7:0] res_o;			// Result Output ... ?
+/*
+// For the adder - add, sub, incdec
+reg [7:0] adder_i;			// Adder Input
+reg [7:0] carry_i;			// Carry In
+reg [7:0] carry_o;			// Carry Out
+reg [7:0] adder_o;			// Adder Output
+// For Logical Computations - and, or, not
+reg [7:0] and_o;			// And Operation Output
+reg [7:0] or_o;				// Or Operation Output
+reg [7:0] not_o;			// Not Operation Output
+// Shift
+reg [7:0] shift_o;			// Shift Operation Output
+// Jump - jumpif
+reg [7:0] jump_o;			// Jump Operation (Address) Output
+*/
+
+always @(*) begin 
+// ... Lots of stuff goes in here ...
+
+	// How to implement adder? // TODO
+
+	case(opcode):
+		ADD: begin
+			assign res_o = a_i + b_i;
+		end
+		SUB: begin
+			assign res_o = a_i - b_i;
+		end
+		// Not sure ...
+		INCDEC: begin 
+			// If flag bit is set to 0, increment 
+			if (a_i[7] == 0) begin
+				// TODO
+				// How to increment register value ??  
+				// assign res_o = a_i + 1;
+			end
+			// If flag bit is set to 1, decrement
+			else if (a_i[7] == 1) begin 
+				// TODO
+				// How to decrement register value ??  
+				// assign res_o = a_i - 1;
+			end
+		end
+		AND: begin 	
+			assign res_o = a_i & b_i;
+		end
+		OR:  begin 	
+			assign res_o = a_i | b_i;
+		end
+		NOT: begin 	
+			assign res_o = ~a_i;
+		end
+/* I'm not sure if lower and upper are alu ops ?
+		LOWER: begin
+			// TODO
+		end
+		UPPER: begin
+			// TODO
+		end
+*/
+		SHIFT: begin
+			// If flag bit is set to 1, shift left
+			if (a_i[7] == 0) begin 
+				assign res_o = /*TODO*/;
+			end
+			// If flag bit is set to 0, shift right
+			else if (a_i[7] == 1) begin 
+				assign res_o = /*TODO*/;
+			end
+		end 
+		JUMPIF: begin
+                	assign res_o = /*TODO*/;
+		end
+		default: begin // What should the default case be?
+			assign res_o = /*TODO*/;
+		end
+	endcase 	
+end
+
+
+endmodule

@@ -1,0 +1,123 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Angela\Desktop\frankFolderJustBeforeHeWentToSleep\8-Bit-MIPS
+vfetchUnit
+Z1 !s100 [GIHcc[K?PSG4NjHE[LcA0
+Z2 IL4Zmhi^k]AjGVn=2^84@k3
+Z3 VC0TnoegbcY_2ThN_oX1IY0
+Z4 dC:\Users\Angela\Desktop\frankFolderJustBeforeHeWentToSleep\8-Bit-MIPS
+Z5 w1423185262
+Z6 8C:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules/fetchUnit.v
+Z7 FC:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules/fetchUnit.v
+L0 7
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules/fetchUnit.v|
+Z10 o-work work -O0
+Z11 nfetch@unit
+Z12 !s108 1423250900.045000
+Z13 !s107 C:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules/fetchUnit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vfetchUnit_testbench
+Z14 !s100 HF;385O:JjABk43jIG^7Q0
+Z15 I[<`LdNS]dVj`DbO5[3mYI1
+Z16 Ve:NaC4^ln8Uj9oeEco[CX3
+R4
+Z17 w1423203350
+Z18 8C:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules/fetchUnit_testbench.v
+Z19 FC:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules/fetchUnit_testbench.v
+L0 1
+R8
+r1
+31
+Z20 !s90 -reportprogress|300|-work|work|C:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules/fetchUnit_testbench.v|
+R10
+Z21 nfetch@unit_testbench
+Z22 !s108 1423250900.221000
+Z23 !s107 C:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules/fetchUnit_testbench.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vfmat_alu
+Z24 !s100 8N50V6Y7?@MHgY?3[?TnP2
+Z25 IND9jSVVi8=3YkI40JNi^n0
+Z26 VceoVGiY;>36JH6DWz`_YK0
+R4
+Z27 w1423202172
+Z28 8C:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules/fmat_alu.v
+Z29 FC:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules/fmat_alu.v
+L0 17
+R8
+r1
+31
+Z30 o-vlog01compat -work work -O0
+Z31 !s92 -vlog01compat -work work +incdir+C:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules -O0
+Z32 !s108 1423251292.546000
+Z33 !s107 C:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules/fmat_alu.v|
+Z34 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules|C:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules/fmat_alu.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vfmat_alu_testbench
+Z35 !s100 AXUa[i@l8TCN_Pe0=jcII3
+Z36 IGaKi]FZU6?E5DdEY=<TIU0
+Z37 VD6YH>iWM>ZeXceI?Co@lU1
+R4
+Z38 w1423203928
+Z39 8C:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules/fmat_alu_testbench.v
+Z40 FC:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules/fmat_alu_testbench.v
+L0 9
+R8
+r1
+31
+R30
+Z41 !s108 1423251292.468000
+Z42 !s107 C:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules/fmat_alu_testbench.v|
+Z43 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules|C:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules/fmat_alu_testbench.v|
+R31
+!i10b 1
+!s85 0
+!s101 -O0
+vregfile
+Z44 !s100 _8NIdaIL8^U4EfC2YU=JF3
+Z45 IoI];S6bjcc[]TbVo500[61
+Z46 VXd]059iK:Y[`<7A2]@K=H0
+R4
+Z47 w1423250501
+Z48 8C:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules/regfile.v
+Z49 FC:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules/regfile.v
+L0 9
+R8
+r1
+31
+Z50 !s90 -reportprogress|300|-work|work|C:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules/regfile.v|
+R10
+!i10b 1
+!s85 0
+Z51 !s108 1423251467.164000
+Z52 !s107 C:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules/regfile.v|
+!s101 -O0
+vregfile_testbench
+!i10b 1
+!s100 aAcUJAegTe4E641?[Ek_X2
+I3h:S=7=1RS8W`63I;kzef2
+Z53 VMShQNb?lc3em_I8S8mG2B1
+R4
+w1423251450
+Z54 8C:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules/regFile_testbench.v
+Z55 FC:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules/regFile_testbench.v
+L0 9
+R8
+r1
+!s85 0
+31
+!s108 1423251467.259000
+!s107 C:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules/regFile_testbench.v|
+Z56 !s90 -reportprogress|300|-work|work|C:/Users/Angela/Desktop/frankFolderJustBeforeHeWentToSleep/8-Bit-MIPS/Verilog/modules/regFile_testbench.v|
+!s101 -O0
+R10
