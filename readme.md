@@ -1,4 +1,4 @@
-###Team:
+### Team:
 
 ---
 
@@ -6,7 +6,7 @@
   - Frank Mezzatesta
 
 
-###Resources
+### Resources
 
 ---
 
@@ -21,13 +21,13 @@
   - Provides a comprehensive guide to research and general information on computer architecture available on the web
 
 
-###Requirements
+### Requirements
 
 ---
 
   - Altera Quartus II Web Edition tool
 
-###Outline
+### Outline
 
 ---
 
